@@ -1,0 +1,10 @@
+{
+	"name": "@koas/v-hscroll",
+	"author": "Koas",
+	"version": "1.0.0",
+	"description": "Vue directive thay enables mouse wheel horizontal scrolling on any element",
+	"license": "MIT",
+	"repository": "koas/v-hscroll",
+	"main": "v-hscroll.js",
+	"keywords": ["vue", "directive", "horizontal", "wheel", "scroll"]
+}
