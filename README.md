@@ -17,6 +17,9 @@ Add the directive to any element with an horizontal scroll:
 	<div class="outer">
 		<div v-hscroll class="inner">
 			<div class="element"></div>
+			<div class="element"></div>
+			<div class="element"></div>
+			<div class="element"></div>
 		</div>
 	</div>
 </template>
