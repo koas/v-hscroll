@@ -1,5 +1,5 @@
 # v-hscroll
-This Vue directive enables mouse wheel horizontal scrolling on any element.
+Vue directive for mouse wheel horizontal scrolling.
 
 ## Quick start
 Install via npm:
