@@ -13,6 +13,14 @@ Import in your main.js file:
 Add the directive to any element with an horizontal scroll:
 
 ```
+<template>
+	<div class="outer">
+		<div v-hscroll class="inner">
+			<div class="element"></div>
+		</div>
+	</div>
+</template>
+
 <style type="text/css">
 .outer {
 	width: 600px;
@@ -31,9 +39,5 @@ Add the directive to any element with an horizontal scroll:
 }
 </style>
 
-<div class="outer">
-	<div v-hscroll class="inner">
-		<div class="element"></div>
-	</div>
-</div>
+
 ```
