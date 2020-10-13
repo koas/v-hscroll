@@ -25,6 +25,11 @@ const HScroll = {
 		el.setAttribute("v-hscroll-main", "1");
 		el.addEventListener('wheel', scrollHorizontally, false);
 	}
+
+	unbind(el, bindings, vn)
+	{
+		el.removeEventListener('wheel', scrollHorizontally, false);
+	}
 };
 
 Vue.directive('hscroll', HScroll);
